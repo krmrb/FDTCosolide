@@ -1,0 +1,20 @@
+
+{
+  "motifAbsence": [
+    { "code": "01", "description": "Maladie" },
+    { "code": "02", "description": "Vacances" },
+    { "code": "03", "description": "Force majeure" },
+    { "code": "04", "description": "Affaires personnelles" },
+    { "code": "05", "description": "Responsabilité parentale" },
+    { "code": "06", "description": "Retour progressif" },
+    { "code": "07", "description": "Congé sans solde" },
+    { "code": "08", "description": "Grève" },
+    { "code": "09", "description": "Retraite progressive" },
+    { "code": "10", "description": "Maternité" },
+    { "code": "11", "description": "Paternité" },
+    { "code": "12", "description": "Temps compensé en congé" },
+    { "code": "13", "description": "Absence autorisée payée" },
+    { "code": "14", "description": "Décès famille" },
+    { "code": "15", "description": "Déménagement" }
+  ]
+}
