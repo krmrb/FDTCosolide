@@ -1,0 +1,57 @@
+html, body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background-color: #ffffffc0;
+  color: #e0f7ff;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+main {
+  /*padding: 2rem;*/
+}
+
+
+
+
+
+:root {
+    /* Couleurs importantes */
+    --moz-color-bleu-mozaik-rgb: 0, 115, 207;
+    --moz-color-bleu-mozaik: rgb(var(--moz-color-bleu-mozaik-rgb));
+    --sie-color-ancien-vert: #34B233;
+    --sie-color-bleu-fonce-rgb: 9, 87, 151;
+
+    /* Couleurs courantes */
+    --sie-current-primary-color-rgb: var(--sie-color-bleu-fonce-rgb);
+    --sie-current-primary-color: rgb(var(--sie-current-primary-color-rgb));
+    --sie-current-moz-button-color: var(--sie-current-primary-color); /*var(--sie-current-primary-color);*/ /*var(--moz-color-bleu-mozaik);*/
+
+    --sie-footer-bg-color: #37424a; /* Gris */
+
+    /* Couleur de sélection - prendre la même bleu que le reste */
+    --bs-primary-rgb: var(--sie-current-primary-color-rgb);
+
+    /* Couleur lien de navigation actif lorsqu'on hover par dessus.  Bleu un peu plus foncé.  */
+    --sie-navbar-active-link-hover-color: rgb(6,60,105);
+
+    /* Couleurs - Bouton succès */
+    --sie-btn-success-bg-color: var(--sie-current-primary-color);
+    --sie-btn-success-color: white;
+    --sie-btn-success-hover-opacity: 0.6;
+}
+
+/* Styles pour les boutons dans le header */
+.fc-toolbar-chunk .header-events {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.fc-toolbar-chunk .header-events .fc-event {
+  margin: 0;
+  padding: 4px 8px;
+  font-size: 12px;
+  cursor: grab;
+}
